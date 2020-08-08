@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  /* 1rem = 10px; 10px/16px = 62.5% */
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #545454;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.wrapper.indexPage {
+  justify-content: center;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainSection .searchContainer {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.mainSection .searchContainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchContainer .searchButton {
+  color: #757575;
+  background-color: #f5f5f5;
+  border: none;
+  height: 3.6rem;
+  width: 12.5rem;
+  border-radius: 1px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.mainSection .searchContainer .searchBox {
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.16), 0 0 0 1px rgba(0,0,0, 0.08);
+  height: 4.4rem;
+  border-radius: 2px;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.6rem;
+  width: 70%;
+  max-width: 63rem;
+  color: #000;
+}
+
+.mainSection .logoContainer {
+  width: 20rem;
+  text-align: center;
+}
+
+.logoContainer img {
+  width: 100%;
+}
+
+
+
+/* Search.php */
+.header {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.wrapper .headerContent {
+  display: flex;
+  align-items: center;
+}
+
+.headerContent .logoContainer {
+  width: 15rem;
+  padding: .5rem 2rem;
+}
+
+.headerContent .searchContainer {
+  flex: 1;
+}
+
+.headerContent .searchContainer form {
+  margin: 1.5rem 0 2.8rem 0;
+}
+
+.headerContent .searchBarContainer {
+  height: 4.4rem;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.16), 0 0 0 1px rgba(0,0,0, 0.08);
+  width: 70%;
+  max-width: 63rem;
+  display: flex;
+}
+
+.headerContent .searchBarContainer .searchBox {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.headerContent .searchBarContainer .searchButton {
+  margin-top: 0;
+  width: 4.4rem;
+  height: 4.4rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.headerContent .searchBarContainer .searchButton img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.tabsContainer {
+  margin-left: 15rem;
+}
+
+.tabsContainer .tabList {
+  margin: 0;
+  padding: 0;
+}
+
+.tabsContainer .tabList li {
+  display: inline-block;
+  padding: 0 1.6rem 1.2rem 1.6rem;
+  font-size: 1.3rem;
+}
+
+.tabsContainer .tabList li a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.tabsContainer .tabList li.active {
+  border-bottom: 3px solid #1a73e8;
+}
+
+.tabsContainer .tabList li.active a {
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+
