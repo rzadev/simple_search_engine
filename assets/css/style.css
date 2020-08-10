@@ -62,7 +62,7 @@ body {
 
 .mainSection .searchContainer .searchBox {
   border: none;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.16), 0 0 0 1px rgba(0,0,0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   height: 4.4rem;
   border-radius: 2px;
   outline: none;
@@ -82,8 +82,6 @@ body {
   width: 100%;
 }
 
-
-
 /* Search.php */
 .header {
   background-color: #fafafa;
@@ -97,7 +95,7 @@ body {
 
 .headerContent .logoContainer {
   width: 15rem;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .headerContent .searchContainer {
@@ -112,7 +110,7 @@ body {
   height: 4.4rem;
   border-radius: 2px;
   background-color: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0, 0.16), 0 0 0 1px rgba(0,0,0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   width: 70%;
   max-width: 63rem;
   display: flex;
@@ -172,4 +170,50 @@ body {
   color: #1a73e8;
 }
 
+.mainResultsSection {
+  margin-top: 1.5rem;
+  flex: 1;
+}
 
+.mainResultsSection .resultsCount {
+  margin-left: 15rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  color: #808080;
+}
+
+.mainResultsSection .siteResults {
+  margin-left: 15rem;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.6rem;
+}
+
+.resultContainer .title {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.resultContainer .title a {
+  color: #1a0dab;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.resultContainer .title a:hover {
+  text-decoration: underline;
+}
+
+.resultContainer .url {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #006621;
+}
+
+.resultContainer .description {
+  font-size: 1.4rem;
+}

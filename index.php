@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Search the web for sites and images">
+  <meta name="keywords" content="search engine">
+  <meta name="author" content="Mohammad Reza">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to Moodle</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
